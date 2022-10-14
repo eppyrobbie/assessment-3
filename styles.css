@@ -36,3 +36,10 @@ input {
 img {
 	max-width: 300px;
 }
+
+
+.profileButton{
+	background-color: yellow;
+	padding: 15px 32px;
+}
+

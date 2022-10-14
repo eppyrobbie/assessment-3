@@ -1,4 +1,35 @@
-Not implemented yet! 
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav> 
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+    </nav>
+
+    <h1>Robbie Epperson</h1>
+
+    <img id="profilePic" src="data:image/png;base64,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">
+
+
+    <p>Here is your profile. Feel free to look around and do what you'd like.</p>
+
+    <h4>Some of your listed Interests</h4>
+        <ul>- Sports</ul>
+        <ul>- Video Games</ul>
+        <ul>- Eating</ul>
+
+
+        <button class="profileButton" id="color">My Favorite Color</button>
+        <button class="profileButton" id="place">My Favorite Place</button>
+        <button class="profileButton" id="ritual">My Favorite Ritual</button>
+
+    <script src="profile.js"></script>
+    </body>
+
+
 
 <br>
 <br>
